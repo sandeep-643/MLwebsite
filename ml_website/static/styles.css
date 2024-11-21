@@ -1,0 +1,81 @@
+/* General styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for the content */
+.container {
+    max-width: 600px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Heading style */
+h2 {
+    color: #2c3e50;
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+/* Label and input styling */
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="number"]:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Add spacing between form and button */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Padding around the body content */
+body {
+    padding: 20px;
+}

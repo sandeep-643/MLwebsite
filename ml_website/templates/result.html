@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Prediction Result</h2>
+        <p class="prediction">Predicted Failure Type: {{ prediction }}</p>
+        <form action="/">
+            <button type="submit">Go Back</button>
+        </form>
+    </div>
+</body>
+</html>
